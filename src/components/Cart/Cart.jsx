@@ -20,7 +20,7 @@ const Cart = ({cart}) => {
   }
 
   const tax = totalPrice*7/100;
-
+ 
  const grandTotal = totalPrice + totalShipping + tax;
 
   return (
